@@ -1,0 +1,127 @@
+
+@media (max-width: 992px) {
+    .features,
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section3 .container {
+        grid-template-columns: 1fr;
+    }
+
+    .section5 .container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .imge,
+    .content {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-left ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 25px;
+    }
+
+    .section1,
+    .section2,
+    .section3,
+    .section4 {
+        padding: 50px 0;
+    }
+
+    .section1 .container {
+        gap: 40px;
+    }
+
+    .sec2con h2,
+    .section3 > h2,
+    .section4 > h2 {
+        font-size: 30px;
+    }
+
+    .sec2footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px;
+    }
+
+    .font-bigger {
+        font-size: 28px;
+    }
+
+    .comup {
+        flex-direction: column;
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    .payment {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 92%;
+    }
+
+    .features,
+    .products,
+    .section5 .container {
+        grid-template-columns: 1fr;
+    }
+
+    .special1,
+    .comment1 {
+        padding: 25px;
+    }
+
+    .imge {
+        padding: 15px;
+        border-radius: 25px;
+    }
+
+    .discount {
+        top: 30px;
+        left: 30px;
+    }
+
+    .desc {
+        font-size: 18px;
+    }
+
+    .now {
+        font-size: 36px;
+    }
+
+    .btn-primary,
+    .btn-outline {
+        padding: 18px;
+        font-size: 18px;
+    }
+
+    .rating {
+        padding: 25px 20px;
+    }
+
+    .rating h1 {
+        font-size: 60px;
+    }
+
+    .rating-row {
+        gap: 10px;
+    }
+}
